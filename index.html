@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0f172a">
+  <meta name="description" content="TechEdZ E-wedding invitation builder landing page.">
+  <title>TechEdZ E-wedding invitation builder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#home">TechEdZ</a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#themes">Themes</a>
+        <a href="#why-us">Why choose us</a>
+        <a href="#contact">Launch yours</a>
+      </nav>
+      <a class="header-cta" href="#themes">Browse themes</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="shell hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Wedding websites with heart</p>
+          <h1>TechEdZ <span>E-wedding invitation builder</span></h1>
+          <p class="hero-text">Transform your invitation into a presentable and meaningful website with ease of access and RSVP monitoring at your convenience. Built for couples who want elegance, clarity, and a shareable online experience.</p>
+          <div class="hero-actions">
+            <a class="primary-btn" href="#themes">View theme collection</a>
+            <a class="secondary-btn" href="#contact">Start your project</a>
+          </div>
+          <div class="hero-pills">
+            <span>Mobile friendly</span>
+            <span>Shareable link</span>
+            <span>Easy RSVP flow</span>
+          </div>
+        </div>
+        <div class="hero-preview glass-card">
+          <div class="preview-browser">
+            <span></span><span></span><span></span>
+          </div>
+          <img src="images/personal-thumb.png" alt="Featured wedding website preview">
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell intro-band">
+      <div class="intro-card glass-card">
+        <p class="eyebrow">Brand promise</p>
+        <h2>Designed to turn a simple invite into a beautiful wedding experience online.</h2>
+        <p>Each design is made to feel premium and easy to use, so your clients can send one polished link for details, entourage, schedules, reminders, and RSVP access.</p>
+      </div>
+    </section>
+
+    <section class="section shell" id="themes">
+      <div class="section-heading">
+        <p class="eyebrow">Theme collection</p>
+        <h2>Choose a style that matches the couple’s story</h2>
+        <p>Click any theme card to open the live site. Replace the placeholder links in <code>theme-links.js</code> with your Netlify URLs after deployment.</p>
+      </div>
+
+      <div class="theme-grid" id="themeGrid">
+        <a class="theme-card glass-card" data-theme-link="signature" target="_blank" rel="noopener noreferrer">
+          <div class="theme-image-wrap">
+            <img src="images/signature-thumb.png" alt="Signature floral wedding invitation theme preview">
+          </div>
+          <div class="theme-body">
+            <div>
+              <p class="theme-kicker">Original template</p>
+              <h3>Signature Floral</h3>
+            </div>
+            <p>Soft, image-led, and close to the original invitation style for clients who want the familiar visual storytelling format.</p>
+            <span class="theme-link">Open live preview</span>
+          </div>
+        </a>
+
+        <a class="theme-card glass-card featured" data-theme-link="personal" target="_blank" rel="noopener noreferrer">
+          <div class="theme-badge">Featured</div>
+          <div class="theme-image-wrap">
+            <img src="images/personal-thumb.png" alt="Personal website style wedding invitation theme preview">
+          </div>
+          <div class="theme-body">
+            <div>
+              <p class="theme-kicker">Modern favorite</p>
+              <h3>Personal Website Style</h3>
+            </div>
+            <p>A polished microsite look with sections, navigation, countdown areas, and a more premium online presentation.</p>
+            <span class="theme-link">Open live preview</span>
+          </div>
+        </a>
+
+        <a class="theme-card glass-card" data-theme-link="booklet" target="_blank" rel="noopener noreferrer">
+          <div class="theme-image-wrap">
+            <img src="images/booklet-thumb.png" alt="Booklet style wedding invitation theme preview">
+          </div>
+          <div class="theme-body">
+            <div>
+              <p class="theme-kicker">Editorial feel</p>
+              <h3>Booklet Style</h3>
+            </div>
+            <p>A flipbook-inspired layout for clients who want a layered, keepsake-like website presentation.</p>
+            <span class="theme-link">Open live preview</span>
+          </div>
+        </a>
+
+        <a class="theme-card glass-card" data-theme-link="classic" target="_blank" rel="noopener noreferrer">
+          <div class="theme-image-wrap">
+            <img src="images/classic-thumb.png" alt="Classic style wedding invitation theme preview">
+          </div>
+          <div class="theme-body">
+            <div>
+              <p class="theme-kicker">Timeless elegance</p>
+              <h3>Classic Style</h3>
+            </div>
+            <p>Formal, balanced, and refined for couples who prefer a graceful and traditional wedding website mood.</p>
+            <span class="theme-link">Open live preview</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section shell" id="why-us">
+      <div class="feature-layout">
+        <div class="section-heading align-left">
+          <p class="eyebrow">Why couples love this format</p>
+          <h2>More than a digital card</h2>
+          <p>Give your clients a link they can proudly share on Facebook, Messenger, or family group chats without losing elegance or useful event details.</p>
+        </div>
+        <div class="feature-list">
+          <article class="mini-card glass-card">
+            <h3>Easy access</h3>
+            <p>Guests can open the invitation anytime from their phones without downloading extra files.</p>
+          </article>
+          <article class="mini-card glass-card">
+            <h3>Clear event details</h3>
+            <p>Date, venue, entourage, attire guide, and reminders can all live in one neat website.</p>
+          </article>
+          <article class="mini-card glass-card">
+            <h3>Better presentation</h3>
+            <p>Your service feels more premium when invitations look modern, branded, and professionally hosted.</p>
+          </article>
+          <article class="mini-card glass-card">
+            <h3>RSVP-ready</h3>
+            <p>Connect RSVP forms or buttons so couples can monitor responses more conveniently.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="contact">
+      <div class="cta-panel glass-card">
+        <p class="eyebrow">Start your brand rollout</p>
+        <h2>Launch this landing page with your GitHub repos and Netlify theme links.</h2>
+        <p>This page is ready for deployment as a static website. Just upload the files to a new repo, replace the four demo links, and publish.</p>
+        <a class="primary-btn" href="#themes">Review the theme cards</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="theme-links.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
