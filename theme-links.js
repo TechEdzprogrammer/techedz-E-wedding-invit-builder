@@ -1,6 +1,6 @@
 window.TECH_EDZ_THEME_LINKS = {
-  signature: "https://your-signature-theme.netlify.app",
-  personal: "https://your-personal-website-theme.netlify.app",
-  booklet: "https://your-booklet-theme.netlify.app",
-  classic: "https://your-classic-theme.netlify.app"
+  signature: "https://wedding-invitation-basic-theme.netlify.app/",
+  personal: "https://wedding-invitation-personal-website.netlify.app/",
+  booklet: "https://wedding-invitaion-booklet.netlify.app/",
+  classic: "https://wedding-invitation-classic.netlify.app/"
 };
