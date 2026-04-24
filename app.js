@@ -13,3 +13,29 @@
     }
   });
 })();
+
+(function () {
+  const priceMap = {
+    signature: '₱800',
+    classic: '₱1,200',
+    booklet: '₱1,800',
+    personal: '₱2,500'
+  };
+
+  document.querySelectorAll('[data-theme-link]').forEach((card) => {
+    const key = card.getAttribute('data-theme-link');
+    const body = card.querySelector('.theme-body');
+    if (!body || !priceMap[key]) return;
+
+    const price = document.createElement('div');
+    price.className = 'theme-price';
+    price.textContent = `Starting at ${priceMap[key]}`;
+
+    const link = body.querySelector('.theme-link');
+    if (link) {
+      body.insertBefore(price, link);
+    } else {
+      body.appendChild(price);
+    }
+  });
+})();

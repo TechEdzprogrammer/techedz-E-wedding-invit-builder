@@ -394,3 +394,24 @@ code {
   .theme-image-wrap { aspect-ratio: 5 / 4; }
   .theme-body > div { display: block; }
 }
+
+
+.theme-price {
+  display: inline-flex;
+  align-items: center;
+  margin-top: .85rem;
+  padding: .55rem .9rem;
+  border-radius: 999px;
+  background: rgba(243,196,181,.15);
+  border: 1px solid rgba(243,196,181,.32);
+  color: #fff;
+  font-weight: 700;
+  font-size: .95rem;
+}
+
+.contact-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.25rem;
+}
