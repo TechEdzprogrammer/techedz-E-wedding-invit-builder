@@ -17,8 +17,8 @@
 (function () {
   const priceMap = {
     signature: '₱800',
-    classic: '₱1,200',
-    booklet: '₱1,800',
+    classic: '₱1,800',
+    booklet: '₱1,200',
     personal: '₱2,500'
   };
 
